@@ -1,0 +1,2 @@
+# Minimalist blog using Laravel
+
