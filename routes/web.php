@@ -48,6 +48,3 @@ Route::group(['middleware' => 'auth'], function() {
 		Route::post('/{comment}', [ReplyController::class, 'store'])->name('store');
 	});
 });
-
-
-Route::get('/produits', [ProductController::class, 'index']);

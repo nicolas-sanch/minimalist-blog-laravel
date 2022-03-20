@@ -6,11 +6,11 @@
 	  	name="new_comment" 
 	  	type="text" 
 	  	class="form-control" 
-	  	placeholder="write your comment.."
+	  	placeholder="écrire votre commentaire.."
 	  	required>
 
 	  <div class="input-group-append">
-	    <button class="btn btn-primary" type="submit">Add Comment</button> 
+	    <button class="btn btn-primary" type="submit">Ajouter un commentaire</button> 
 	  </div>
 
 	</div>

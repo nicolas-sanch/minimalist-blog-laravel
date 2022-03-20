@@ -1,4 +1,4 @@
-<h4 class="card-title">Comments</h4>
+<h4 class="card-title">Commentaires</h4>
 
 {{-- add comment form --}}
 @include('posts.partials.add_comment')
@@ -6,7 +6,7 @@
 {{-- list all comments --}}
 @forelse($post->comments as $comment)
 	<div class="card-text">
-		<b>{{ $comment->owner->name }}</b> said
+		<b>{{ $comment->owner->name }}</b> dit
 		<small class="text-muted">
 		    {{ $comment->created_at->diffForHumans() }}
 		</small>
@@ -20,5 +20,5 @@
 	</div>
 	{!! $loop->last ? '' : '<hr>' !!}
 @empty
-	<p class="card-text">no comments yet!</p>
+	<p class="card-text">Il n'y a pas encore de commentaires !</p>
 @endforelse

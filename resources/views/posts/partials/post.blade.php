@@ -8,7 +8,7 @@
 
     {{-- Owner name with created_at --}}
     <small class="text-muted">
-    	Posted by: <b>{{ $post->owner->name }}</b> on {{ $post->created_at->format('M d, Y H:i:s') }}
+    	Publié par : <b>{{ $post->owner->name }}</b> le {{ $post->created_at->format('M d, Y H:i:s') }}
     </small>
 
     {{-- Post body --}}

@@ -6,11 +6,11 @@
 	  	name="new_reply" 
 	  	type="text" 
 	  	class="form-control" 
-	  	placeholder="write your reply.."
+	  	placeholder="écrire votre réponse.."
 	  	required>
 
 	  <div class="input-group-append">
-	    <button class="btn btn-primary" type="submit">reply</button> 
+	    <button class="btn btn-primary" type="submit">répondre</button> 
 	  </div>
 
 	</div>

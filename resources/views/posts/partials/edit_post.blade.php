@@ -4,13 +4,13 @@
 
     {{-- Post title --}}
     <div class="form-group">
-      <label for="title">Post title</label>
+      <label for="title">Titre de la publication</label>
       <input type="text"
                 name="title"
                 id="title"
                 class="form-control"
                 value="{{ $post->title }}"
-                placeholder="write post title here.."
+                placeholder="écire le titre de la publication ici ..."
                 required />
 
         @if ($errors->has('title'))
@@ -21,12 +21,12 @@
 
     {{-- Post body --}}
     <div class="form-group">
-      <label for="body">Post body</label>
+      <label for="body">Contenu de la publication</label>
       <textarea class="form-control"
                 name="body"
                 id="body"
                 rows="3"
-                placeholder="write post body here.."
+                placeholder="écrire le contenu de la publication ici ..."
                 required
                 style="resize: none;">{{ $post->body }}</textarea>
 
@@ -36,8 +36,8 @@
     </div>
 
     <div class="form-group">
-        <button type="submit" class="btn btn-primary">Update Post</button>
-        <a href="{{ route('home') }}" class="btn btn-default">Back</a>
+        <button type="submit" class="btn btn-primary">Mettre à jour la publication</button>
+        <a href="{{ route('home') }}" class="btn btn-default">Retour</a>
     </div>
 
 </form>
