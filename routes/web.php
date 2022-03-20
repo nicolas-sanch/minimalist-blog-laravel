@@ -47,8 +47,4 @@ Route::group(['middleware' => 'auth'], function() {
         // store reply route
 		Route::post('/{comment}', [ReplyController::class, 'store'])->name('store');
 	});
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 5d786bd72b57a254edadc1aa60315451c7a702b9
