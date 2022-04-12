@@ -1,5 +1,7 @@
 # Minimalist blog using Laravel
 
+## Télécharger et construire le projet
+
 ```bash
 git clone https://github.com/nicolas-sanch/minimalist-blog-laravel
 
@@ -14,3 +16,4 @@ vendor/bin/sail up -d
 vendor/bin/sail artisan key:generate               
 vendor/bin/sail artisan migrate  
 ```
+
